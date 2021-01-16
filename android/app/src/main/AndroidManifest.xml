@@ -7,14 +7,14 @@
 
     <application
       tools:replace="android:allowBackup"
-      android:name="com.example.reactnativeciontekcs10c.MainApplication"
+      android:name="com.mfachmirizal.reactnativeciontekcs10c.MainApplication"
       android:label="@string/app_name"
       android:icon="@mipmap/ic_launcher"
       android:roundIcon="@mipmap/ic_launcher_round"
       android:allowBackup="false"
       android:theme="@style/AppTheme">
       <activity
-        android:name="com.example.reactnativeciontekcs10c.MainActivity"
+        android:name="com.mfachmirizal.reactnativeciontekcs10c.MainActivity"
         android:label="@string/app_name"
         android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
         android:launchMode="singleTask"

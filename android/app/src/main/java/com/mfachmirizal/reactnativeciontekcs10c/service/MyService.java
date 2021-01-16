@@ -1,4 +1,4 @@
-package com.example.reactnativeciontekcs10c.service;
+package com.mfachmirizal.reactnativeciontekcs10c.service;
 
 import android.app.Service;
 import android.content.Intent;

@@ -1,7 +1,9 @@
-package com.example.reactnativeciontekcs10c;
+package com.mfachmirizal.reactnativeciontekcs10c;
 
 import android.app.Application;
 import android.content.Context;
+
+import com.facebook.react.BuildConfig;
 import com.facebook.react.PackageList;
 import com.facebook.react.ReactApplication;
 import com.facebook.react.ReactNativeHost;

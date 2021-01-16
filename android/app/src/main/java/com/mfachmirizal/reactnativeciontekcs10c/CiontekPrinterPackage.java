@@ -1,4 +1,4 @@
-package com.example.reactnativeciontekcs10c;
+package com.mfachmirizal.reactnativeciontekcs10c;
 import com.facebook.react.ReactPackage;
 import com.facebook.react.bridge.NativeModule;
 import com.facebook.react.bridge.ReactApplicationContext;

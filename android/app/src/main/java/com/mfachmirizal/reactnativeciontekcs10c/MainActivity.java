@@ -1,4 +1,4 @@
-package com.example.reactnativeciontekcs10c;
+package com.mfachmirizal.reactnativeciontekcs10c;
 
 import com.facebook.react.ReactActivity;
 

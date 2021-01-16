@@ -1,4 +1,4 @@
-package com.example.reactnativeciontekcs10c;
+package com.mfachmirizal.reactnativeciontekcs10c;
 
 /**
  * Created by Administrator on 2018/1/25.

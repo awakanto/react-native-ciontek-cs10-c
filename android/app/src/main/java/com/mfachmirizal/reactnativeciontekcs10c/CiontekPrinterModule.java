@@ -1,11 +1,11 @@
-package com.example.reactnativeciontekcs10c;
+package com.mfachmirizal.reactnativeciontekcs10c;
 
 import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.bridge.ReactContextBaseJavaModule;
 import com.facebook.react.bridge.ReactMethod;
 import com.facebook.react.bridge.Callback;
 
-import com.example.reactnativeciontekcs10c.service.MyService;
+import com.mfachmirizal.reactnativeciontekcs10c.service.MyService;
 import vpos.apipackage.PosApiHelper;
 import vpos.apipackage.Print;
 import vpos.apipackage.PrintInitException;
