@@ -204,11 +204,12 @@ dependencies {
 
   //POS LIB
 //	  implementation(name: 'A26Library-debug-64', ext: 'aar')
+    implementation(name: 'CS10-C-SDK-v1.1.7', ext: 'aar')
     implementation "com.google.zxing:core:3.3.0"
 
 //    implementation(name: 'CS10-C-SDK-RemoveZxing', ext: 'aar')
 //    implementation(name: 'CS10-C-v1.1.2', ext: 'aar')
-  implementation(name: 'CS10-C-SDK-v1.1.7', ext: 'aar')
+
 
 //  implementation(name: 'A26Library-debug-64', ext: 'aar')
 //    implementation files('libs\\zxing-core-3.3.0.jar')

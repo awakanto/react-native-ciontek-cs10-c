@@ -318,8 +318,8 @@ public class CiontekPrinterModule extends ReactContextBaseJavaModule {
           Log.v("Ciontek", "ret set font: " + ret);
 
           posApiHelper.PrintStr("======= \n");
-          posApiHelper.PrintStr("*** PT. Brilyan Trimatra Utama ***\n");
-          posApiHelper.PrintStr("\"======= \n");
+          posApiHelper.PrintStr("*** PT. Brilyan Trimatra Utama *** \n");
+          posApiHelper.PrintStr("======= \n");
           posApiHelper.PrintStr(" \n");
           posApiHelper.PrintStr(" \n");
           posApiHelper.PrintStr(" \n");
