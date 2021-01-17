@@ -1,15 +1,17 @@
 import * as React from 'react';
 
 import { StyleSheet, View, Text, TouchableOpacity } from 'react-native';
-import CiontekCs10C from 'react-native-ciontek-cs10-c';
+import { NativeModules } from 'react-native';
+const { CiontekPrinterModule } = NativeModules; 
 
 
 export default function App() {
   const [result, setResult] = React.useState<number | undefined>();
 
   React.useEffect(() => { 
-    CiontekCs10C.testingModule('HAI', (tes: String) => console.log('>', tes)); 
-    CiontekCs10C.checkPrinterStatus((status: Number) => {
+    // const CiontekCs10C = CiontekPrinterModule
+    CiontekPrinterModule.testingModule('HAI', (tes: String) => console.log('>', tes)); 
+    CiontekPrinterModule.checkPrinterStatus((status: Number) => {
       console.log('checkPrinterStatus', status)
       setResult(status)
     }); 
@@ -17,7 +19,7 @@ export default function App() {
 
   return (
     <View style={styles.container}>
-      <TouchableOpacity onPress={() => { CiontekCs10C.testPrint() } }>
+      <TouchableOpacity onPress={() => { CiontekPrinterModule.testPrint() } }>
         <Text>Result: {result}</Text>
       </TouchableOpacity>
     </View>
