@@ -1,8 +1,8 @@
 {
   "name": "react-native-ciontek-cs10-c",
-  "description": "Example app for react-native-ciontek-cs10-c",
+  "description": "React-native With ciontek-cs10",
   "version": "0.0.2",
-  "private": true,
+  "private": false,
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
