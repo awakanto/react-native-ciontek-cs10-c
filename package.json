@@ -1,6 +1,6 @@
 {
-  "name": "react-native-ciontek-cs10-c",
-  "description": "React-native With ciontek-cs10",
+  "name": "react-native-ciontek",
+  "description": "React-native With ciontek",
   "version": "0.0.1",
   "private": false,
   "scripts": {
